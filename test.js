@@ -2,6 +2,8 @@ const aString = "";
 
 let aNumber = 42;
 
-if (aString === "something") {
+const aRenamedBoolean = true;
+
+if (aString === "something" && aRenamedBoolean) {
   aNumber = 333;
 }
